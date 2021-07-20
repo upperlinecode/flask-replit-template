@@ -1,0 +1,15 @@
+<head>
+	<title>My First Flask Website</title>
+	<link href="/static/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<h1>Welcome to the Breakfast Quiz</h1>
+	<form method="POST" action="/results">
+		<input type="text" name="nickname" placeholder="Enter your nickname"/>
+    <input type="text" name="breakfast" placeholder="Enter your breakfast"/>  
+    <input type="submit" value="Submit"/>
+  </form>
+  <a href="/see">See</a>
+  <a href="/add">Add</a>
+</body>
