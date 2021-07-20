@@ -7,10 +7,10 @@ app = Flask(
   template_folder='templates',
   static_folder='static'
 )
-## Mongo Configurations
-app.config["MONGO_DBNAME"] = "" # Your database name here
-app.config["MONGO_URI"] = "" # Your URI here (w/ username and password)
-mongo = PyMongo(app)
+## Mongo Configurations - uncomment when you're ready to fill them in
+# app.config["MONGO_DBNAME"] = "" # Your database name here
+# app.config["MONGO_URI"] = "" # Your URI here (w/ username and password)
+# mongo = PyMongo(app)
 
 #### ROUTES 
 # Index page
